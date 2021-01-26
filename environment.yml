@@ -5,10 +5,15 @@ channels:
   - defaults
 dependencies:
   - make=4.3
-  - curl=7
+  - curl=9
   - nextflow=20.07
-  - python=3.8
+  - python=2.7
   - jsonschema=3.2
   - bagit=1.7
   - rdflib-jsonld=0.5
   - isodate=0.6
+  - ca-certificates
+  - wincertstore=0.2
+  - vc=9
+  - zlib=1.2.11
+  - vs2010_runtime
